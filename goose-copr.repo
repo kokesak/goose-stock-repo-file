@@ -1,0 +1,11 @@
+[copr:copr.fedorainfracloud.org:linkdupont:gaggle]
+name=Copr repo for gaggle owned by linkdupont
+baseurl=https://download.copr.fedorainfracloud.org/results/linkdupont/gaggle/rhel-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/results/linkdupont/gaggle/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
+
