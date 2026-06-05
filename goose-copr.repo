@@ -1,10 +1,10 @@
-[copr:copr.fedorainfracloud.org:linkdupont:gaggle]
-name=Copr repo for gaggle owned by linkdupont
-baseurl=https://download.copr.fedorainfracloud.org/results/linkdupont/gaggle/rhel-$releasever-$basearch/
+[copr:copr.fedorainfracloud.org:group_rhel-lightspeed:goose]
+name=Copr repo for goose owned by @rhel-lightspeed
+baseurl=https://download.copr.fedorainfracloud.org/results/@rhel-lightspeed/goose/rhel-$releasever-$basearch/
 type=rpm-md
 skip_if_unavailable=True
 gpgcheck=1
-gpgkey=https://download.copr.fedorainfracloud.org/results/linkdupont/gaggle/pubkey.gpg
+gpgkey=https://download.copr.fedorainfracloud.org/results/@rhel-lightspeed/goose/pubkey.gpg
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
