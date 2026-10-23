@@ -8,4 +8,6 @@ gpgkey=https://download.copr.fedorainfracloud.org/results/@rhel-lightspeed/goose
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
+# We need to install only the "main" build in the CI
+includepkgs=goose*main*
 
